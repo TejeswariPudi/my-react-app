@@ -1,0 +1,36 @@
+/* Userprofile.css */
+
+.user-profile-container {
+  max-width: 400px;
+  margin: 200px auto;
+  padding: 20px;
+  border: 2px solid #3498db;
+  border-radius: 15px;
+  background-color: #f0f5f9;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.profile-icon {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.user-details h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.user-details h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.user-details p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Add more styles as needed */

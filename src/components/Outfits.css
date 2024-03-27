@@ -1,0 +1,101 @@
+/* Product.css */
+
+body {
+    background-color: #808080; /* Change to your desired shade of gray */
+    margin: 0;
+  }
+  
+  .main0 {
+    padding: 20px;
+  }
+  
+  .card-input {
+    margin-bottom: 350px;
+    padding: 80px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 1em;
+    outline: none;
+  }
+  
+  .card-input:focus {
+    border-color: #1380b3;
+  }
+  
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .Product-card {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    background-color: #fff; /* Set a white background for each card */
+  }
+  
+  .Product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .Product-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .Product-body {
+    margin-top: 15px;
+  }
+  
+  .Product-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .Product-text {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .product-button1,
+  .product-button2 {
+    background-color: #009146;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product-button1:hover,
+  .product-button2:hover {
+    background-color: #0d0b0d;
+  }
+  
+  .no-products {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .no-products1 {
+    color: #e74c3c;
+  }
+  
+  .no-products2 {
+    color: #c0392b;
+  }
+  .cart-section div {
+    color: black;
+  }
+  /* Add this to your Outfits.css file or modify the existing styles */
+.cart-item-details div {
+  color: black ;
+}

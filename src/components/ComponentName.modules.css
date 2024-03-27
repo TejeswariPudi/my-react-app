@@ -1,0 +1,45 @@
+.navlist{
+    margin-left: 50%;
+    margin-top: -4%;
+    font-size: 20px;
+    font-family: Georgia, serif; 
+    
+   
+  }
+  div.navlist:active
+  {
+    color:red
+  }
+ 
+  img{
+    height: 100px;
+    border-radius: 80%;
+  }
+  /* ComponentName.module.css */
+
+/* Your existing styles */
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navlist {
+    margin-top: 10px; /* Adjust spacing */
+  }
+
+  .navlist a {
+    margin-right: 0; /* Remove right margin */
+    margin-bottom: 10px; /* Adjust spacing between links */
+  }
+
+  /* Add styles for search bar */
+  .search-bar {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 200px; 
+    /* Adjust the maximum width */
+  }
+}

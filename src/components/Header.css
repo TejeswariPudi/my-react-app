@@ -1,0 +1,34 @@
+/* Header.css */
+.navbar {
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    margin-right: 40px;
+    color: #000000;
+    position: relative;
+  }
+  
+  .nav-links a.active-link {
+    color: blue; /* Set your desired active link color */
+  }
+  
+  .nav-links a.active-link::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color:blue; /* Set your desired active link underline color */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  .override-styles {
+    font-size: 30px !important;
+  }
+  

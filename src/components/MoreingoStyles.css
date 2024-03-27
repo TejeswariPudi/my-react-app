@@ -1,0 +1,100 @@
+/* Add this CSS to a Moreingo.css file or integrate it into your existing styles */
+
+.more-info-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    overflow: auto; /* Add this line to enable scrolling for overflow content */
+    color: black !important;
+  }
+  
+  .more-info-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    color: black !important;
+  }
+  
+  .more-info-header h2 {
+    margin: 0;
+    
+  }
+  
+  .close-button {
+    /*background-color: #e74c3c;*/
+    color: black;
+    border: none;
+    padding: 18px 40px;
+    /*height: 30px;
+    width: 30px;*/
+    cursor: pointer;
+    line-height: 1; /* Set line-height to 1 to prevent text from going out */
+    overflow: hidden; /* Added overflow property */
+    white-space: nowrap; /* Prevent text from wrapping */
+    text-overflow: ellipsis; /* Display ellipsis (...) for overflowed text */
+  }
+  
+  .more-info-content {
+    display: flex;
+    height: 380px;/* Adjusted max-height */
+    width:100%;
+    overflow:auto;
+    
+  }
+  
+  .product-image {
+    width: 55%;
+    border-radius: 8px;
+    height:55%;
+  }
+  
+  .product-details {
+    padding: 0 10px;
+    /*overflow: auto; /* Added overflow property */
+    color: gray; /* Set the text color to black */
+  }
+  
+  .product-details p {
+    margin: 5px 0;
+    color:black;
+    
+  }
+  
+  /* Add more styles as needed */
+
+  /* MoreingoStyles.css */
+
+.buy-now-button {
+  background-color: #009146; /* Green background color */
+  color: black; /* Black text color */
+  border: none;
+  padding: 8px 15px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buy-now-button:hover {
+  background-color: #0d0b0d; /* Darker green on hover */
+}
+
+  /* MoreingoStyles.css */
+
+.more-info-content {
+  color: black; /* Set the text color to black */
+}
+
+.product-details {
+  color: black; /* Set the text color to black */
+}
+
+/* Add any additional styling as needed */
